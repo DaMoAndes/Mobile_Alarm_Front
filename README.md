@@ -1,4 +1,4 @@
-# Mobile_Alarm_Front - UX Desing 
+# Mobile Alarm Front - UX Design
 
 # En esta repositorio se encuentra la maquetación de los mockups de la versión Mobile.
 
