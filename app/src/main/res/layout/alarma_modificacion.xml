@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fef4cf"
+    android:backgroundTint="#fef4cf"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALARMA"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="200dp"
+        android:text=":"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/materialToolbar3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="173dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="116dp"
+        android:backgroundTint="#FAC710"
+        android:text="CANCELAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        app:srcCompat="@drawable/Snooze"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:text="DÍAS"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar9"
+        android:layout_width="82dp"
+        android:layout_height="61dp"
+        android:background="@drawable/stroke_background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:text="p.m"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/chip14"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="57dp"
+        android:layout_height="59dp"
+        app:srcCompat="@drawable/baseline_add_circle_24"
+        tools:layout_editor_absoluteX="133dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="173dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="116dp"
+        android:backgroundTint="#FAC710"
+        android:text="AGREGAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="49dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/Calendario"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="426dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="486dp" />
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="49dp"
+        android:layout_height="56dp"
+        app:srcCompat="@drawable/baseline_settings_applications_24"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar10"
+        android:layout_width="303dp"
+        android:layout_height="239dp"
+        android:background="@drawable/stroke_background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="64dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/baseline_calendar_month_24"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="125dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginBottom="196dp"
+        android:backgroundTint="#FAC710"
+        android:text="SNOOZE MODE"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar11"
+        android:layout_width="81dp"
+        android:layout_height="62dp"
+        android:background="@drawable/stroke_background"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.712"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="409dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="4dp"
+        android:background="#60FFF38C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        app:srcCompat="@drawable/baseline_stacked_bar_chart_24"
+        tools:layout_editor_absoluteX="222dp"
+        tools:layout_editor_absoluteY="659dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="153dp"
+        android:layout_height="35dp"
+        android:text="Sonido Alarma"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="61dp"
+        android:layout_height="62dp"
+        app:srcCompat="@drawable/baseline_access_alarm_24"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="185dp"
+        android:layout_height="37dp"
+        android:text="Conexion Externa"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="70dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="51dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/Alarma_creacion"
+        tools:layout_editor_absoluteX="247dp"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="40dp"
+        android:layout_height="29dp"
+        android:text="a.m"
+        android:textSize="21sp"
+        tools:layout_editor_absoluteX="330dp"
+        tools:layout_editor_absoluteY="161dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="58dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/Google"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="366dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="409dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="628dp"
+        android:background="#60FFF38C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="409dp"
+        android:layout_height="103dp"
+        android:layout_marginBottom="4dp"
+        android:background="#60FFF38C"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="66dp"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/Keys"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
