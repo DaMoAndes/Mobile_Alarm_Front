@@ -204,7 +204,7 @@
         android:id="@+id/imageView33"
         android:layout_width="88dp"
         android:layout_height="84dp"
-        app:srcCompat="@drawable/Trash"
+        app:srcCompat="@drawable/tash"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="7dp" />
 

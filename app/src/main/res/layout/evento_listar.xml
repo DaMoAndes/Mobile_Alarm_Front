@@ -93,7 +93,7 @@
         android:id="@+id/imageView37"
         android:layout_width="73dp"
         android:layout_height="60dp"
-        app:srcCompat="@drawable/Alarma_creacion"
+        app:srcCompat="@drawable/alarm"
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="28dp" />
 

@@ -199,7 +199,7 @@
         android:id="@+id/imageView12"
         android:layout_width="57dp"
         android:layout_height="59dp"
-        app:srcCompat="@drawable/Keys"
+        app:srcCompat="@drawable/settings_keys"
         tools:layout_editor_absoluteX="43dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -272,7 +272,7 @@
         android:id="@+id/imageView14"
         android:layout_width="58dp"
         android:layout_height="41dp"
-        app:srcCompat="@drawable/Google"
+        app:srcCompat="@drawable/google"
         tools:layout_editor_absoluteX="240dp"
         tools:layout_editor_absoluteY="366dp" />
 
@@ -280,7 +280,7 @@
         android:id="@+id/imageView15"
         android:layout_width="49dp"
         android:layout_height="44dp"
-        app:srcCompat="@drawable/Calendario"
+        app:srcCompat="@drawable/calendar"
         tools:layout_editor_absoluteX="244dp"
         tools:layout_editor_absoluteY="426dp" />
 
@@ -288,7 +288,7 @@
         android:id="@+id/imageView16"
         android:layout_width="51dp"
         android:layout_height="44dp"
-        app:srcCompat="@drawable/Alarma_creacion"
+        app:srcCompat="@drawable/alarm"
         tools:layout_editor_absoluteX="247dp"
         tools:layout_editor_absoluteY="487dp" />
 

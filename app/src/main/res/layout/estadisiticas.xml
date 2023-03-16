@@ -152,7 +152,7 @@
         android:id="@+id/imageView33"
         android:layout_width="88dp"
         android:layout_height="84dp"
-        app:srcCompat="@drawable/stadistics"
+        app:srcCompat="@drawable/statistics"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="7dp" />
 

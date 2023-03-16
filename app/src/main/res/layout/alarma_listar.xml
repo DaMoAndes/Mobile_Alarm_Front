@@ -173,7 +173,8 @@
     <ImageView
         android:layout_width="84dp"
         android:layout_height="87dp"
-        android:src="@drawable/Alarma_Head"
+        android:src="@drawable/alarm_head"
+        app:srcCompat="@drawable/alarm"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="7dp" />
 
@@ -181,7 +182,7 @@
         android:id="@+id/imageView8"
         android:layout_width="83dp"
         android:layout_height="87dp"
-        app:srcCompat="@drawable/History"
+        app:srcCompat="@drawable/historial"
         tools:layout_editor_absoluteX="312dp"
         tools:layout_editor_absoluteY="127dp" />
 
